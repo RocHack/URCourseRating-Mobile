@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="139" id="2" customClass="NewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2" id="yA2-MY-PWs">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Comments" translatesAutoresizingMaskIntoConstraints="NO" id="54">
+                        <rect key="frame" x="15" y="67" width="292" height="56"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="292" id="363"/>
+                            <constraint firstAttribute="height" constant="56" id="373"/>
+                        </constraints>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="13"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57">
+                        <rect key="frame" x="64" y="23" width="66" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="66" id="209"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                        <color key="textColor" red="0.20731026790000001" green="0.20731026790000001" blue="0.20731026790000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Overall:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60">
+                        <rect key="frame" x="197" y="37" width="63" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="412"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Content:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61">
+                        <rect key="frame" x="197" y="8" width="63" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="63" id="66"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Easiness:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62">
+                        <rect key="frame" x="197" y="22" width="63" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="65"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Semester" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63">
+                        <rect key="frame" x="15" y="23" width="115" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="448"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                        <color key="textColor" red="0.20731026790000001" green="0.20731026790000001" blue="0.20731026790000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Professor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="124">
+                        <rect key="frame" x="15" y="8" width="115" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="125"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                        <color key="textColor" red="0.20731026790000001" green="0.20731026790000001" blue="0.20731026790000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Comments:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="192">
+                        <rect key="frame" x="15" y="52" width="115" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="194"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="14"/>
+                        <color key="textColor" red="0.21574059309999999" green="0.21574059309999999" blue="0.21574059309999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="235">
+                        <rect key="frame" x="15" y="38" width="84" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="84" id="249"/>
+                            <constraint firstAttribute="height" constant="21" id="399"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                        <color key="textColor" red="0.21574059309999999" green="0.21574059309999999" blue="0.21574059309999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pending" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="250">
+                        <rect key="frame" x="64" y="38" width="84" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="84" id="252"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="14"/>
+                        <color key="textColor" red="0.91852678570000001" green="0.80724240430000005" blue="0.27263031710000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="skyblue_border_line.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="300">
+                        <rect key="frame" x="-43" y="131" width="371" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="355"/>
+                            <constraint firstAttribute="width" constant="371" id="362"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="416">
+                        <rect key="frame" x="253" y="14" width="54" height="9"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="54" id="447"/>
+                            <constraint firstAttribute="height" constant="9" id="452"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="457">
+                        <rect key="frame" x="253" y="29" width="54" height="9"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="9" id="459"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="471">
+                        <rect key="frame" x="253" y="43" width="54" height="9"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="9" id="472"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="54" firstAttribute="top" secondItem="235" secondAttribute="bottom" constant="8" symbolic="YES" id="47F-uv-vbe"/>
+                <constraint firstItem="124" firstAttribute="top" secondItem="61" secondAttribute="top" id="4Ak-l5-ZHS"/>
+                <constraint firstItem="416" firstAttribute="centerY" secondItem="61" secondAttribute="centerY" id="5rp-Qs-tpE"/>
+                <constraint firstItem="62" firstAttribute="trailing" secondItem="61" secondAttribute="trailing" id="6kF-e4-q2g"/>
+                <constraint firstItem="57" firstAttribute="baseline" secondItem="62" secondAttribute="baseline" id="8Ef-pl-Qtm"/>
+                <constraint firstItem="124" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="15" id="926-e3-ASw"/>
+                <constraint firstItem="63" firstAttribute="top" secondItem="57" secondAttribute="top" id="9qN-M5-JRs"/>
+                <constraint firstItem="63" firstAttribute="trailing" secondItem="192" secondAttribute="trailing" id="A1R-XK-H5n"/>
+                <constraint firstItem="60" firstAttribute="trailing" secondItem="62" secondAttribute="trailing" id="CwT-JD-tI7"/>
+                <constraint firstAttribute="trailing" secondItem="61" secondAttribute="trailing" constant="60" id="Eg0-b1-l3b"/>
+                <constraint firstItem="457" firstAttribute="centerY" secondItem="57" secondAttribute="centerY" id="Htg-Ph-exu"/>
+                <constraint firstItem="57" firstAttribute="baseline" secondItem="63" secondAttribute="baseline" id="IJK-OI-9Fs"/>
+                <constraint firstItem="471" firstAttribute="leading" secondItem="457" secondAttribute="leading" id="IVM-gL-96O"/>
+                <constraint firstItem="62" firstAttribute="leading" secondItem="61" secondAttribute="leading" id="Ifr-Gp-rVB"/>
+                <constraint firstItem="63" firstAttribute="trailing" secondItem="57" secondAttribute="trailing" id="LwR-mg-2He"/>
+                <constraint firstItem="457" firstAttribute="leading" secondItem="416" secondAttribute="leading" id="MNB-vQ-eqp"/>
+                <constraint firstItem="300" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="-43" id="Rhw-H1-nLd"/>
+                <constraint firstItem="192" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="8" symbolic="YES" id="SLU-dF-RzS"/>
+                <constraint firstItem="457" firstAttribute="trailing" secondItem="416" secondAttribute="trailing" id="TAK-eB-FHE"/>
+                <constraint firstItem="54" firstAttribute="leading" secondItem="192" secondAttribute="leading" id="W4m-Lp-eng"/>
+                <constraint firstItem="250" firstAttribute="baseline" secondItem="60" secondAttribute="baseline" id="WL2-hd-IxF"/>
+                <constraint firstItem="471" firstAttribute="trailing" secondItem="457" secondAttribute="trailing" id="XBV-zM-jA3"/>
+                <constraint firstItem="250" firstAttribute="leading" secondItem="57" secondAttribute="leading" id="ao6-41-5uf"/>
+                <constraint firstItem="60" firstAttribute="top" secondItem="61" secondAttribute="bottom" constant="8" symbolic="YES" id="aph-Ij-Ocz"/>
+                <constraint firstItem="250" firstAttribute="baseline" secondItem="235" secondAttribute="baseline" id="fna-MX-jqC"/>
+                <constraint firstItem="471" firstAttribute="centerY" secondItem="60" secondAttribute="centerY" id="gZe-V8-SRb"/>
+                <constraint firstItem="416" firstAttribute="top" secondItem="2" secondAttribute="top" constant="14" id="h3T-pR-PXz"/>
+                <constraint firstItem="300" firstAttribute="top" secondItem="54" secondAttribute="bottom" constant="8" symbolic="YES" id="iVv-b6-W6t"/>
+                <constraint firstItem="124" firstAttribute="trailing" secondItem="63" secondAttribute="trailing" id="iZF-pe-5rj"/>
+                <constraint firstItem="235" firstAttribute="leading" secondItem="63" secondAttribute="leading" id="jem-2X-vcb"/>
+                <constraint firstItem="62" firstAttribute="top" secondItem="2" secondAttribute="top" constant="22" id="kUM-A8-HZK"/>
+                <constraint firstItem="235" firstAttribute="leading" secondItem="192" secondAttribute="leading" id="l7U-ss-bde"/>
+                <constraint firstItem="235" firstAttribute="top" secondItem="250" secondAttribute="top" id="rAE-cZ-ttY"/>
+                <constraint firstItem="471" firstAttribute="trailing" secondItem="54" secondAttribute="trailing" id="tqs-Nh-EHm"/>
+                <constraint firstItem="124" firstAttribute="top" secondItem="2" secondAttribute="top" constant="8" id="wKK-2m-Zfx"/>
+                <constraint firstItem="416" firstAttribute="centerY" secondItem="124" secondAttribute="centerY" id="xIh-tf-bI4"/>
+                <constraint firstItem="63" firstAttribute="leading" secondItem="124" secondAttribute="leading" id="z59-3d-XfX"/>
+                <constraint firstItem="60" firstAttribute="leading" secondItem="62" secondAttribute="leading" id="zDi-32-yqC"/>
+            </constraints>
+            <connections>
+                <outlet property="C" destination="61" id="222"/>
+                <outlet property="E" destination="62" id="223"/>
+                <outlet property="O" destination="60" id="224"/>
+                <outlet property="com" destination="192" id="221"/>
+                <outlet property="comments" destination="54" id="117"/>
+                <outlet property="content" destination="416" id="486"/>
+                <outlet property="date" destination="57" id="122"/>
+                <outlet property="easiness" destination="457" id="485"/>
+                <outlet property="professor" destination="124" id="148"/>
+                <outlet property="score" destination="471" id="487"/>
+                <outlet property="semester" destination="63" id="123"/>
+                <outlet property="status" destination="235" id="261"/>
+                <outlet property="submission" destination="250" id="260"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="skyblue_border_line.jpg" width="640" height="2"/>
+    </resources>
+</document>
