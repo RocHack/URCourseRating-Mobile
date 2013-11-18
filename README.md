@@ -1,18 +1,9 @@
-LogIn and SignUp View Controllers Tutorial
-==========================================
+Description
 
-This Xcode project teaches you how to use the `PFLogInViewController` and `PFSignUpViewController` using the Parse framework.
-
-How to Run
-----------
-
-1. Clone the repository and open the Xcode project.
-2. Add your Parse application id and client key in `AppDelegate.m`.
-3. Setup your Facebook and Twitter keys as described in our [iOS Guide](https://parse.com/docs/ios_guide#fbusers).
-4. Hack away!
+A Course Rating App used to rate courses at the University of Rochester. Uses the Parse framework as a backend to store and Process Data. 
 
 
-Learn More
-----------
+Running Instructions:
 
-To learn more, take a look at the [Login and Signup Views](https://parse.com/tutorials/login-and-signup-views) tutorial.
+Simply opening the TestApp.xcodeproj will open up the project in xcode. 
+The Parse framework can be downloaded from : https://parse.com/docs/downloads
