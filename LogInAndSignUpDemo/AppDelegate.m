@@ -50,21 +50,18 @@
     
     tabBarItem1.title = @"Search";
     tabBarItem2.title = @"Departments";
-    //Old
-    /*
-    [tabBarItem1 setImage:[UIImage imageNamed:@"searchTab"]];
-    [tabBarItem2 setImage:[UIImage imageNamed:@"manage"]];
-    */
-    
-    [tabBarItem1 setFinishedSelectedImage:[UIImage imageNamed:@"SearchSel.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"Search?.png"]];
-    [tabBarItem2 setFinishedSelectedImage:[UIImage imageNamed:@"DepsSel.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"Deps.png"]];
+
+    [tabBarItem2 setImage:[UIImage imageNamed:@"Deps.png"]];
+    [tabBarItem1 setImage:[UIImage imageNamed:@"Search?.png"]];
+    [tabBarItem1 setSelectedImage:[UIImage imageNamed:@"SearchSel.png"]];
+    [tabBarItem2 setSelectedImage:[UIImage imageNamed:@"DepsSel.png"]];
     
     UIImage *tabBarBackground = [UIImage imageNamed:@"customTab.png"];
     [[UITabBar appearance] setBackgroundImage:tabBarBackground];
     [[UITabBar appearance] setSelectionIndicatorImage:[UIImage imageNamed:@"tabBarSel.png"]];
     
     
-    
+    /*
     UIColor *tabTextColor = [UIColor colorWithRed:(51.0/255.0) green:(67.0/255.0) blue:(77.0/255.0) alpha:1.0];
     
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
@@ -74,7 +71,7 @@
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
                                                        tabTextColor, UITextAttributeTextColor,
                                                        nil] forState:UIControlStateHighlighted];
-    
+    */
     
     self.window.rootViewController = self.tabBarController;
     self.window.backgroundColor = [UIColor whiteColor];
