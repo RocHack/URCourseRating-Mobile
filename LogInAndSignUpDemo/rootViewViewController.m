@@ -51,7 +51,7 @@
     
     
     
-    UIImage *user = [UIImage imageNamed:@"user.png"];
+    UIImage *user = [UIImage imageNamed:@"profileIcon.png"];
     UIButton *userButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [userButton setImage:user forState:UIControlStateNormal];
     
@@ -145,7 +145,7 @@
 - (void) displayLogin{
     
     if(![PFUser currentUser]){
-        [self presentModalViewController:self.login animated:YES];
+        [self presentViewController: self.login animated:YES completion:nil];
         
     }
     else{
@@ -263,7 +263,7 @@
             }
         }
         if([alertView.title isEqual: @"Please Log in"]){
-            [self presentModalViewController:self.login animated:YES];
+            [self presentViewController: self.login animated:YES completion:nil];
         }
     }
 }

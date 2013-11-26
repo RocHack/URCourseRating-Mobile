@@ -51,14 +51,17 @@
     tabBarItem1.title = @"Search";
     tabBarItem2.title = @"Departments";
 
-    [tabBarItem2 setImage:[UIImage imageNamed:@"Deps.png"]];
-    [tabBarItem1 setImage:[UIImage imageNamed:@"Search?.png"]];
-    [tabBarItem1 setSelectedImage:[UIImage imageNamed:@"SearchSel.png"]];
-    [tabBarItem2 setSelectedImage:[UIImage imageNamed:@"DepsSel.png"]];
+    [tabBarItem1 setImage:[UIImage imageNamed:@"search.png"]];
+    [tabBarItem1 setSelectedImage:[UIImage imageNamed:@"searchFilled.png"]];
+    
+    [tabBarItem2 setImage:[UIImage imageNamed:@"departments.png"]];
+    [tabBarItem2 setSelectedImage:[UIImage imageNamed:@"departmentsFilled.png"]];
+    
     
     UIImage *tabBarBackground = [UIImage imageNamed:@"customTab.png"];
     [[UITabBar appearance] setBackgroundImage:tabBarBackground];
     [[UITabBar appearance] setSelectionIndicatorImage:[UIImage imageNamed:@"tabBarSel.png"]];
+    [[UITabBar appearance] setTintColor:[UIColor redColor]];
     
     
     /*
