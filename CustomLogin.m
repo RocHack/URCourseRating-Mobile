@@ -1,9 +1,4 @@
-//
-//  MyLogInViewController.m
-//  LogInAndSignUpDemo
-//
-//  Created by Mattieu Gamache-Asselin on 6/15/12.
-//
+
 
 #import "CustomLogin.h"
 #import <QuartzCore/QuartzCore.h>
