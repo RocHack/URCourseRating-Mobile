@@ -1,6 +1,5 @@
 //
 //  CoursesViewController.m
-//  LogInAndSignUpDemo
 //
 //  Created by Praneet Tata on 7/22/13.
 //
@@ -12,6 +11,7 @@
 #import "ScrollSub.h"
 #import "reviewSubmission.h"
 #import "CourseCell.h"
+#import "CustomLogin.h"
 
 
 @interface CoursesViewController ()
@@ -275,11 +275,11 @@
     
     
     if (buttonIndex == 0) {
-        self.login = [[PFLogInViewController alloc] init];
+        self.login = [[CustomLogin alloc] init];
         self.login.delegate = self;
         self.login.signUpController.delegate = self;
         self.login.fields = PFLogInFieldsDefault;
-        [self presentModalViewController:self.login animated:YES];
+        [self presentViewController:self.login animated:YES completion:nil];
     }
 }
 

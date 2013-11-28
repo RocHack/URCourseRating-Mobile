@@ -1,6 +1,5 @@
 //
 //  rootViewViewController.m
-//  LogInAndSignUpDemo
 //
 //  Created by Praneet Tata on 6/25/13.
 //

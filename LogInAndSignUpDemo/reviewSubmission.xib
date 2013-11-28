@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="reviewSubmission">
@@ -27,7 +27,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="761"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" minimumZoomScale="2" translatesAutoresizingMaskIntoConstraints="NO" id="71">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" minimumZoomScale="2" translatesAutoresizingMaskIntoConstraints="NO" id="71" customClass="TPKeyboardAvoidingScrollView">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="894"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <subviews>
@@ -106,7 +106,7 @@
                                 <constraint firstAttribute="width" constant="116" id="290"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                            <color key="textColor" red="0.30673104340000001" green="0.66223874230000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Professor:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="291">
@@ -116,7 +116,7 @@
                                 <constraint firstAttribute="width" constant="89" id="320"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                            <color key="textColor" red="0.30673104340000001" green="0.66223874230000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Semester:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="321">
@@ -126,7 +126,7 @@
                                 <constraint firstAttribute="width" constant="84" id="332"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                            <color key="textColor" red="0.30673104340000001" green="0.66223874230000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Year:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="334">
@@ -136,7 +136,7 @@
                                 <constraint firstAttribute="width" constant="84" id="335"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                            <color key="textColor" red="0.30673104340000001" green="0.66223874230000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Content:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="344">
@@ -146,7 +146,7 @@
                                 <constraint firstAttribute="width" constant="71" id="368"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                            <color key="textColor" red="0.30673104340000001" green="0.66223874230000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Easiness:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="369">
@@ -156,7 +156,7 @@
                                 <constraint firstAttribute="width" constant="85" id="380"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                            <color key="textColor" red="0.30673104340000001" green="0.66223874230000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Overall:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="385">
@@ -166,7 +166,7 @@
                                 <constraint firstAttribute="width" constant="85" id="519"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                            <color key="textColor" red="0.30673104340000001" green="0.66223874230000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Comments:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="393">
@@ -176,7 +176,7 @@
                                 <constraint firstAttribute="width" constant="96" id="403"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
-                            <color key="textColor" red="0.30673104340000001" green="0.66223874230000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="439">
@@ -203,7 +203,7 @@
                             <color key="textColor" red="0.30673104340000001" green="0.66223874230000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="529">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" background="textbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="529">
                             <rect key="frame" x="20" y="120" width="232" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <constraints>
@@ -216,7 +216,7 @@
                                 <action selector="userDoneEntertingComments:" destination="-1" eventType="editingDidEnd" id="585"/>
                             </connections>
                         </textField>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="539">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" background="textbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="539">
                             <rect key="frame" x="20" y="193" width="232" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <constraints>
@@ -228,7 +228,7 @@
                                 <action selector="userDoneEntertingComments:" destination="-1" eventType="editingDidEnd" id="586"/>
                             </connections>
                         </textField>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="550">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" background="textbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="550">
                             <rect key="frame" x="20" y="257" width="109" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <constraints>
@@ -241,7 +241,7 @@
                                 <action selector="userDoneEntertingComments:" destination="-1" eventType="editingDidEnd" id="587"/>
                             </connections>
                         </textField>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="563">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" background="textbox.png" translatesAutoresizingMaskIntoConstraints="NO" id="563">
                             <rect key="frame" x="144" y="257" width="109" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <constraints>
@@ -321,5 +321,6 @@
     </objects>
     <resources>
         <image name="reviewSubmit.png" width="280" height="43"/>
+        <image name="textbox.png" width="500" height="100"/>
     </resources>
 </document>

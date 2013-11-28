@@ -13,6 +13,7 @@
 #import "ScrollSub.h"
 #import "reviewSubmission.h"
 #import "CourseCell.h"
+#import "CustomLogin.h"
 
 
 @interface SearchCoursesViewController ()
@@ -262,8 +263,7 @@
 }
 
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
-    //if(indexPath.row%2)
-       // cell.backgroundColor = [UIColor colorWithRed:(231.0/255.0) green:(244.0/255.0) blue:(252.0/255.0) alpha:1];
+
     
 }
 
@@ -280,11 +280,11 @@
     
     
     if (buttonIndex == 0) {
-        self.login = [[PFLogInViewController alloc] init];
+        self.login = [[CustomLogin alloc] init];
         self.login.delegate = self;
         self.login.signUpController.delegate = self;
         self.login.fields = PFLogInFieldsDefault;
-        [self presentModalViewController:self.login animated:YES];
+        [self presentViewController:self.login animated:YES completion:nil];
     }
 }
 

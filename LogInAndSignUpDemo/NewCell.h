@@ -14,7 +14,6 @@
 @property (nonatomic,weak) IBOutlet UIImageView *score;
 @property (nonatomic,weak) IBOutlet UIImageView *easiness;
 @property (nonatomic,weak) IBOutlet UIImageView *content;
-@property (nonatomic,weak) IBOutlet UILabel *date;
 @property (nonatomic,weak) IBOutlet UILabel *semester;
 @property (nonatomic,weak) IBOutlet UILabel *professor;
 @property (nonatomic,weak) IBOutlet UILabel *com;

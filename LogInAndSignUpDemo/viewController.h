@@ -1,6 +1,5 @@
 //
 //  viewController.h
-//  LogInAndSignUpDemo
 //
 //  Created by Praneet Tata on 6/26/13.
 //

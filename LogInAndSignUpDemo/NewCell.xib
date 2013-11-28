@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -24,16 +24,6 @@
                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="13"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57">
-                        <rect key="frame" x="64" y="23" width="66" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="66" id="209"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                        <color key="textColor" red="0.20731026790000001" green="0.20731026790000001" blue="0.20731026790000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </label>
                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Overall:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60">
                         <rect key="frame" x="197" y="37" width="63" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -41,7 +31,7 @@
                             <constraint firstAttribute="height" constant="21" id="412"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </label>
                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Content:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61">
@@ -51,7 +41,7 @@
                             <constraint firstAttribute="width" constant="63" id="66"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </label>
                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Easiness:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62">
@@ -61,7 +51,7 @@
                             <constraint firstAttribute="height" constant="21" id="65"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.63771323619999998" green="0.43626188700000001" blue="0.88614078439999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </label>
                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Semester" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63">
@@ -81,7 +71,7 @@
                             <constraint firstAttribute="width" constant="115" id="125"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                        <color key="textColor" red="0.20731026790000001" green="0.20731026790000001" blue="0.20731026790000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </label>
                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Comments:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="192">
@@ -91,7 +81,7 @@
                             <constraint firstAttribute="height" constant="21" id="194"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="14"/>
-                        <color key="textColor" red="0.21574059309999999" green="0.21574059309999999" blue="0.21574059309999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </label>
                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="235">
@@ -146,23 +136,23 @@
                         </constraints>
                     </imageView>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="471" firstAttribute="top" secondItem="457" secondAttribute="bottom" constant="5" id="3Q9-RQ-gZD"/>
+                    <constraint firstItem="62" firstAttribute="leading" secondItem="250" secondAttribute="trailing" constant="49" id="Aw0-2V-kxH"/>
+                    <constraint firstItem="457" firstAttribute="centerY" secondItem="63" secondAttribute="centerY" id="Bd7-9n-qfS"/>
+                </constraints>
             </tableViewCellContentView>
             <constraints>
                 <constraint firstItem="54" firstAttribute="top" secondItem="235" secondAttribute="bottom" constant="8" symbolic="YES" id="47F-uv-vbe"/>
                 <constraint firstItem="124" firstAttribute="top" secondItem="61" secondAttribute="top" id="4Ak-l5-ZHS"/>
                 <constraint firstItem="416" firstAttribute="centerY" secondItem="61" secondAttribute="centerY" id="5rp-Qs-tpE"/>
                 <constraint firstItem="62" firstAttribute="trailing" secondItem="61" secondAttribute="trailing" id="6kF-e4-q2g"/>
-                <constraint firstItem="57" firstAttribute="baseline" secondItem="62" secondAttribute="baseline" id="8Ef-pl-Qtm"/>
                 <constraint firstItem="124" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="15" id="926-e3-ASw"/>
-                <constraint firstItem="63" firstAttribute="top" secondItem="57" secondAttribute="top" id="9qN-M5-JRs"/>
                 <constraint firstItem="63" firstAttribute="trailing" secondItem="192" secondAttribute="trailing" id="A1R-XK-H5n"/>
                 <constraint firstItem="60" firstAttribute="trailing" secondItem="62" secondAttribute="trailing" id="CwT-JD-tI7"/>
                 <constraint firstAttribute="trailing" secondItem="61" secondAttribute="trailing" constant="60" id="Eg0-b1-l3b"/>
-                <constraint firstItem="457" firstAttribute="centerY" secondItem="57" secondAttribute="centerY" id="Htg-Ph-exu"/>
-                <constraint firstItem="57" firstAttribute="baseline" secondItem="63" secondAttribute="baseline" id="IJK-OI-9Fs"/>
                 <constraint firstItem="471" firstAttribute="leading" secondItem="457" secondAttribute="leading" id="IVM-gL-96O"/>
                 <constraint firstItem="62" firstAttribute="leading" secondItem="61" secondAttribute="leading" id="Ifr-Gp-rVB"/>
-                <constraint firstItem="63" firstAttribute="trailing" secondItem="57" secondAttribute="trailing" id="LwR-mg-2He"/>
                 <constraint firstItem="457" firstAttribute="leading" secondItem="416" secondAttribute="leading" id="MNB-vQ-eqp"/>
                 <constraint firstItem="300" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="-43" id="Rhw-H1-nLd"/>
                 <constraint firstItem="192" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="8" symbolic="YES" id="SLU-dF-RzS"/>
@@ -170,7 +160,6 @@
                 <constraint firstItem="54" firstAttribute="leading" secondItem="192" secondAttribute="leading" id="W4m-Lp-eng"/>
                 <constraint firstItem="250" firstAttribute="baseline" secondItem="60" secondAttribute="baseline" id="WL2-hd-IxF"/>
                 <constraint firstItem="471" firstAttribute="trailing" secondItem="457" secondAttribute="trailing" id="XBV-zM-jA3"/>
-                <constraint firstItem="250" firstAttribute="leading" secondItem="57" secondAttribute="leading" id="ao6-41-5uf"/>
                 <constraint firstItem="60" firstAttribute="top" secondItem="61" secondAttribute="bottom" constant="8" symbolic="YES" id="aph-Ij-Ocz"/>
                 <constraint firstItem="250" firstAttribute="baseline" secondItem="235" secondAttribute="baseline" id="fna-MX-jqC"/>
                 <constraint firstItem="471" firstAttribute="centerY" secondItem="60" secondAttribute="centerY" id="gZe-V8-SRb"/>
@@ -194,7 +183,6 @@
                 <outlet property="com" destination="192" id="221"/>
                 <outlet property="comments" destination="54" id="117"/>
                 <outlet property="content" destination="416" id="486"/>
-                <outlet property="date" destination="57" id="122"/>
                 <outlet property="easiness" destination="457" id="485"/>
                 <outlet property="professor" destination="124" id="148"/>
                 <outlet property="score" destination="471" id="487"/>

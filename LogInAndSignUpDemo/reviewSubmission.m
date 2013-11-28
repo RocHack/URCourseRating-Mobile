@@ -1,6 +1,5 @@
 //
 //  reviewSubmission.m
-//  LogInAndSignUpDemo
 //
 //  Created by Praneet Tata on 7/2/13.
 //
@@ -112,15 +111,49 @@
 
 -(IBAction)contentChange:(id)sender{
     
+    if(self.content.value > 3.8){
+        self.contentD.textColor = [UIColor colorWithRed:(104.0/255.0) green:(200.0/255.0) blue:(79.0/255.0) alpha:1.0];
+    }
+    else if(self.content.value < 2.9){
+        self.contentD.textColor = [UIColor colorWithRed:(245.0/255.0) green:(99.0/255.0) blue:(89.0/255.0) alpha:1.0];
+    }
+    else{
+        self.contentD.textColor = [UIColor colorWithRed:(255.0/255.0) green:(211.0/255.0) blue:(0.0/255.0) alpha:1.0];
+    }
+
     self.contentD.text = [NSString stringWithFormat:@"%.01f",self.content.value];
     
 }
 
 -(IBAction)easinessChange:(id)sender{
+    
+    if(self.easiness.value > 3.8){
+        self.easinessD.textColor = [UIColor colorWithRed:(104.0/255.0) green:(200.0/255.0) blue:(79.0/255.0) alpha:1.0];
+    }
+    else if(self.easiness.value < 2.9){
+        self.easinessD.textColor = [UIColor colorWithRed:(245.0/255.0) green:(99.0/255.0) blue:(89.0/255.0) alpha:1.0];
+    }
+    else{
+        self.easinessD.textColor = [UIColor colorWithRed:(255.0/255.0) green:(211.0/255.0) blue:(0.0/255.0) alpha:1.0];
+    }
+
+    
     self.easinessD.text = [NSString stringWithFormat:@"%.01f",self.easiness.value];
 }
 
 -(IBAction)overallChange:(id)sender{
+    
+    if(self.overall.value > 3.8){
+        self.overallD.textColor = [UIColor colorWithRed:(104.0/255.0) green:(200.0/255.0) blue:(79.0/255.0) alpha:1.0];
+    }
+    else if(self.overall.value < 2.9){
+        self.overallD.textColor = [UIColor colorWithRed:(245.0/255.0) green:(99.0/255.0) blue:(89.0/255.0) alpha:1.0];
+    }
+    else{
+        self.overallD.textColor = [UIColor colorWithRed:(255.0/255.0) green:(211.0/255.0) blue:(0.0/255.0) alpha:1.0];
+    }
+
+    
     self.overallD.text = [NSString stringWithFormat:@"%.01f",self.overall.value];
 }
 

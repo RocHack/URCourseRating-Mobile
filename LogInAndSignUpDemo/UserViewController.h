@@ -1,6 +1,5 @@
 //
 //  UserViewController.h
-//  LogInAndSignUpDemo
 //
 //  Created by Praneet Tata on 7/26/13.
 //

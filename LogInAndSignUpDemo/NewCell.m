@@ -14,7 +14,6 @@
 @synthesize score = _score;
 @synthesize easiness = _easiness;
 @synthesize content = _content;
-@synthesize date = _date;
 @synthesize semester = _semester;
 @synthesize professor = _professor;
 

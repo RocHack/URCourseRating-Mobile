@@ -1,6 +1,5 @@
 //
 //  reviewSubmission.h
-//  LogInAndSignUpDemo
 //
 //  Created by Praneet Tata on 7/2/13.
 //

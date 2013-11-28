@@ -1,6 +1,5 @@
 //
 //  NewCourse.h
-//  LogInAndSignUpDemo
 //
 //  Created by Praneet Tata on 7/18/13.
 //

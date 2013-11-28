@@ -1,6 +1,5 @@
 //
 //  CoursesViewController.h
-//  LogInAndSignUpDemo
 //
 //  Created by Praneet Tata on 7/19/13.
 //

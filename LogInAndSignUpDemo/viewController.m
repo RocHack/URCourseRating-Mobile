@@ -1,6 +1,5 @@
 //
 //  viewController.m
-//  LogInAndSignUpDemo
 //
 //  Created by Praneet Tata on 6/26/13.
 //
@@ -187,7 +186,7 @@
         cell = [nib objectAtIndex:0];
         
     }
-    if(indexPath.row < [self.reviews count]){
+//    if(indexPath.row < [self.reviews count]){
         
         NSDictionary *dictionaryApps = (NSDictionary *)[self.reviews objectAtIndex:indexPath.row];
     
@@ -196,31 +195,40 @@
         NSString *easiness = [NSString stringWithFormat:@"%.01f",[dictionaryApps[@"easiness"] floatValue]];
         NSString *content = [NSString stringWithFormat:@"%.01f",[dictionaryApps[@"content"] floatValue]];
         NSString *date = [NSString stringWithFormat:@"%@",dictionaryApps[@"year"]];
-        cell.comments.text = dictionaryApps[@"comments"];
+        NSString *semCol = [NSString stringWithFormat:@"%@",dictionaryApps[@"semester"]];
         
+        if([semCol isEqual: @"Fall"]){
+            cell.semester.textColor = [UIColor orangeColor];
+        }
+        else if([semCol isEqual: @"Spring"]){
+            cell.semester.textColor = [UIColor greenColor];
+        }
+        else if([semCol isEqual: @"Winter"]){
+            cell.semester.textColor = [UIColor blueColor];
+        }
+        else{
+            cell.semester.textColor = [UIColor yellowColor];
+        }
+        NSMutableString *sem1 = [NSMutableString stringWithString:semCol];
+        [sem1 appendString:@" "];
+        [sem1 appendString:date];
+        NSString *restrictSem = sem1;
+        cell.comments.text = dictionaryApps[@"comments"];
         UIImage *overallCirc = [self circImage:score];
         cell.score.image =overallCirc;
-        
         UIImage *easinessCirc = [self circImage:easiness];
         cell.easiness.image = easinessCirc;
-        
         UIImage *contentCirc  = [self circImage:content];
         cell.content.image = contentCirc;
-        
-        
-        
-        
-        cell.date.text = date;
-        cell.semester.text = dictionaryApps[@"semester"];
+        cell.semester.text = restrictSem;
         cell.professor.text = dictionaryApps[@"profname"];
         cell.status.text = @"";
         cell.submission.text = @"";
 
-    }
-    else{
+    //}
+    /*else{
 
         cell.comments.text = @"";
-        cell.date.text = @"";
         cell.semester.text = @"";
         cell.professor.text = @"";
         cell.com.text = @"";
@@ -230,7 +238,7 @@
         cell.status.text = @"";
         cell.submission.text = @"";
         
-    }
+    }*/
     return cell;
 }
 
@@ -354,7 +362,7 @@
         self.login.delegate = self;
         self.login.signUpController.delegate = self;
         self.login.fields = PFLogInFieldsDefault;
-        [self presentModalViewController:self.login animated:YES];        
+        [self presentViewController:self.login animated:YES completion:nil];
     }
 }
 
